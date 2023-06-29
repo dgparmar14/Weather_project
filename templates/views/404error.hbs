@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{>headerlinks}}
+  </head>
+  <body>
+    {{>navbar}}
+
+    <!-- main header  -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row justify-content-center">
+            <div class="col-md-6 col-12 main_header_left align-items-center ">
+              <figure>
+                <img
+                  src="images/404_error_2.png"
+                  alt="dhrumit"
+                  class="img-fluid"
+                  height="400"
+                  width="400"
+                  title="Dhrumit Parmar"
+                />
+              </figure>
+            
+              <p>Welcome to my world</p>
+              <h1>
+               {{errMsg}}
+              </h1>
+              <a href="/"><button>Go Back</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer code   -->
+    {{>footer}}
+    
+  </body>
+</html>
